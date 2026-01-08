@@ -841,7 +841,7 @@ function toggleMusicSafe() {
   lastToggle = now;
 
   if (music.paused) {
-    music.volume = 0.6;
+    music.volume = 1.0;
     music.play().catch(() => {});
   } else {
     music.pause();
